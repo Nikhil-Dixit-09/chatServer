@@ -25,7 +25,7 @@ const server=app.listen(port,function(err){
 const io=require('socket.io')(server,{
     pingTimeout:60000,
     cors:{
-        origin:"http://localhost:3000"
+        origin:"https://65830a6c3098fa2622d5c37d--monumental-manatee-f8f973.netlify.app"
     }
 });
 io.on("connection",(socket)=>{
